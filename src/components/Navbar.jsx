@@ -43,45 +43,57 @@ const Navbar = () => {
             aria-label="Toggle menu"
           >
             <div className="w-6 h-5 flex flex-col justify-between">
-              <span className={`block w-full h-0.5 bg-[#010205] transform transition-all duration-500 ease-in-out ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-              <span className={`block w-full h-0.5 bg-[#010205] transition-all duration-500 ease-in-out ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-              <span className={`block w-full h-0.5 bg-[#010205] transform transition-all duration-500 ease-in-out ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+              <span
+                className={`block w-full h-0.5 bg-[#010205] transform transition-all duration-500 ease-in-out ${
+                  isMenuOpen ? "rotate-45 translate-y-2" : ""
+                }`}
+              ></span>
+              <span
+                className={`block w-full h-0.5 bg-[#010205] transition-all duration-500 ease-in-out ${
+                  isMenuOpen ? "opacity-0" : ""
+                }`}
+              ></span>
+              <span
+                className={`block w-full h-0.5 bg-[#010205] transform transition-all duration-500 ease-in-out ${
+                  isMenuOpen ? "-rotate-45 -translate-y-2" : ""
+                }`}
+              ></span>
             </div>
           </button>
         </div>
       </div>
 
       {/* Mobile Navigation */}
-      <div 
+      <div
         className={`lg:hidden overflow-hidden transition-all duration-500 ease-in-out ${
-          isMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+          isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <div className="flex flex-col gap-4 text-[#020407] font-semibold py-4">
-          <Link 
-            to="/" 
-            className="py-2 transform transition-all duration-300 hover:translate-x-2" 
+          <Link
+            to="/"
+            className="py-2 transform transition-all duration-300 hover:translate-x-2"
             onClick={() => setIsMenuOpen(false)}
           >
             Home
           </Link>
-          <Link 
-            to="/about" 
-            className="py-2 transform transition-all duration-300 hover:translate-x-2" 
+          <Link
+            to="/about"
+            className="py-2 transform transition-all duration-300 hover:translate-x-2"
             onClick={() => setIsMenuOpen(false)}
           >
             About
           </Link>
-          <Link 
-            to="/consulting" 
-            className="py-2 transform transition-all duration-300 hover:translate-x-2" 
+          <Link
+            to="/consulting"
+            className="py-2 transform transition-all duration-300 hover:translate-x-2"
             onClick={() => setIsMenuOpen(false)}
           >
             Consulting
           </Link>
-          <Link 
-            to="/aicoach" 
-            className="py-2 transform transition-all duration-300 hover:translate-x-2" 
+          <Link
+            to="/aicoach"
+            className="py-2 transform transition-all duration-300 hover:translate-x-2"
             onClick={() => setIsMenuOpen(false)}
           >
             AI Coach
