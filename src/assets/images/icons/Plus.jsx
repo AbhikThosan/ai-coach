@@ -1,0 +1,36 @@
+import React from "react";
+
+const Plus = () => {
+  return (
+    <>
+      <svg
+        width="41"
+        height="41"
+        viewBox="0 0 41 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="Plus">
+          <path
+            id="Vector"
+            d="M7.05811 20.5H34.5581"
+            stroke="#111111"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            id="Vector_2"
+            d="M20.8081 6.75V34.25"
+            stroke="#111111"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </g>
+      </svg>
+    </>
+  );
+};
+
+export default Plus;

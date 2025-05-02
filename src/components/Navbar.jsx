@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/logo/logo";
+import Logo from "../assets/images/logo/Logo";
 
 const Navbar = () => {
   return (
-    <nav className="">
+    <nav className="my-[30px] px-[239px]">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <div className="mr-[72px]">
@@ -25,7 +25,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <button className="px-[35px] py-[13px] bg-transparent border border-[#010205] rounded-[50px] text-[#010205] font-bold">
+        <button className="px-[35px] py-[13px] bg-transparent border border-[#010205] rounded-[50px] text-[#010205] font-bold leading-[140%]">
           Get started
         </button>
       </div>

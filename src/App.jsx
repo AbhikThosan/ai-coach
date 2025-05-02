@@ -4,6 +4,7 @@ import About from "./pages/about";
 import Consulting from "./pages/consulting";
 import Aicouch from "./pages/aicoach";
 import Home from "./pages/home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/consulting" element={<Consulting />} />
         <Route path="/aicoach" element={<Aicouch />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
