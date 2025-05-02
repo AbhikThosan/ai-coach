@@ -20,7 +20,7 @@ A modern web application that provides AI-powered sales coaching and training so
 
 ## Demo
 
-Check out the live demo of the project: [AI Sales Coach Demo](https://ai-sales-coach-demo.netlify.app)
+Check out the live demo of the project: [AI Sales Coach Demo](https://fastidious-seahorse-62870b.netlify.app)
 
 ## Getting Started
 
