@@ -72,7 +72,7 @@ const Carousel = () => {
   }, [current]);
 
   return (
-    <div className="relative w-full max-w-[1280px] mx-auto overflow-hidden h-[344px] mt-[115px] mb-[84px]">
+    <div className="relative w-full max-w-[1280px] mx-auto overflow-hidden h-[500px] sm:h-[400px] md:h-[344px] mt-[60px] sm:mt-[80px] md:mt-[115px] mb-[40px] sm:mb-[60px] md:mb-[84px]">
       <div className="relative w-full h-full">
         {carouselItems.map((item, index) => {
           let position = "translate-x-full opacity-0";
@@ -105,15 +105,15 @@ const Carousel = () => {
           );
         })}
 
-        <div className="absolute bottom-10 right-[-100px] -translate-x-1/2 flex items-center gap-[38px] z-20">
+        <div className="absolute bottom-4 sm:bottom-6 md:bottom-10 right-[-50px] sm:right-[-75px] md:right-[-100px] -translate-x-1/2 flex items-center gap-[20px] sm:gap-[30px] md:gap-[38px] z-20">
           <button
             type="button"
             onClick={handlePrev}
-            className="cursor-pointer px-[32px] py-[16px] border border-[#00245F] rounded-[70px] hover:bg-gray-200 transition focus:outline-none"
+            className="cursor-pointer px-[20px] sm:px-[10px] md:px-[32px] py-[12px] sm:py-[10px] md:py-[16px] border border-[#00245F] rounded-[70px] hover:bg-gray-200 transition focus:outline-none"
           >
             <ArrowLeft />
           </button>
-          <div className="text-[20px] font-semibold leading-[180%] text-[#00245F]">
+          <div className="text-[16px] sm:text-[18px] md:text-[20px] font-semibold leading-[180%] text-[#00245F]">
             <span className="underline">{carouselItems[current].number}</span>
             <span className="text-[#01020566]">/</span>
             <span className="text-[#01020566]">
@@ -123,7 +123,7 @@ const Carousel = () => {
           <button
             type="button"
             onClick={handleNext}
-            className="cursor-pointer px-[32px] py-[16px] bg-[#00245F] text-white rounded-[70px] hover:bg-gray-700 transition focus:outline-none"
+            className="cursor-pointer px-[20px] sm:px-[10px] md:px-[32px] py-[12px] sm:py-[10px] md:py-[16px] bg-[#00245F] text-white rounded-[70px] hover:bg-gray-700 transition focus:outline-none"
           >
             <ArrowRight />
           </button>

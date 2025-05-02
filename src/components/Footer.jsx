@@ -12,17 +12,17 @@ import Location from "../assets/images/icons/Location";
 const Footer = () => {
   return (
     <div
-      className=" bg-no-repeat bg-cover bg-center"
+      className="bg-no-repeat bg-cover bg-center"
       style={{ backgroundImage: `url(${FooterBG})` }}
     >
       <div className="pb-[80px]">
-        <div className="px-[239px] pt-[32px] border-b border-[#B4B4B4]">
+        <div className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-[239px] pt-[32px] border-b border-[#B4B4B4]">
           <div className="bg-[linear-gradient(90deg,_#103570_0%,_#004FCE_100%)] flex flex-col items-center justify-center gap-[48px] py-[80px] rounded-[24px]">
             <div className="flex flex-col gap-[12px] items-center">
-              <h3 className="text-[#FFF] text-[38px] font-semibold leading-[130%]">
+              <h3 className="text-[#FFF] text-[28px] sm:text-[32px] md:text-[38px] font-semibold leading-[130%] text-center">
                 Ready to Hire Smarter?
               </h3>
-              <p className="text-[#B9BDC7] text-[16px] font-normal leading-[160%]">
+              <p className="text-[#B9BDC7] text-[14px] sm:text-[16px] font-normal leading-[160%] text-center">
                 Unlock Exclusive Insights Subscribe to Our Newsletter
               </p>
             </div>
@@ -31,15 +31,15 @@ const Footer = () => {
             </button>
           </div>
 
-          <div className="flex items-center justify-between mt-[144px] pb-[40px]">
-            <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col xl:flex-row xl:flex-nowrap items-start justify-between mt-[80px] sm:mt-[100px] lg:mt-[144px] pb-[40px] gap-8 lg:gap-4">
+            <div className="w-full xl:w-auto flex flex-col gap-[30px]">
               <div className="flex items-center gap-[12.36px]">
                 <DemoLogo />
                 <h2 className="text-[#020407] text-[37.091px] font-bold leading-[24px]">
                   Logo
                 </h2>
               </div>
-              <p className="max-w-[534px] text-[#335386] text-[14px] font-normal leading-[24px]">
+              <p className="text-[#335386] text-[14px] font-normal leading-[24px]">
                 SalesRank.AI offers a comprehensive suite of AI-powered
                 solutions to help you find expert sales professionals who can
                 elevate every aspect of your business. From performance rankings
@@ -63,7 +63,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex gap-[115px]">
+            <div className="w-full xl:w-auto flex flex-col xl:flex-row gap-8 sm:gap-16 lg:gap-4 xl:gap-[115px]">
               <div className="flex flex-col">
                 <h4 className="text-[#001C4A] text-[18px] font-semibold mb-[36px]">
                   Navigation

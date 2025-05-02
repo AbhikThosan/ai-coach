@@ -33,7 +33,7 @@ const Chat = () => {
   }, [messages]);
 
   return (
-    <div className="max-w-[787px] h-[577px] border border-[#CDCDCD] rounded-[12px] overflow-hidden bg-[#F2F3F3] flex flex-col">
+    <div className=" h-[577px] border border-[#CDCDCD] rounded-[12px] overflow-hidden bg-[#F2F3F3] flex flex-col">
       <h2 className=" font-bold text-[18px] text-[#1B1B1B] leading-[120%] bg-[#FFF] pl-[32px] pt-[16px] pb-[24px]">
         AI Sales Coach
       </h2>
@@ -76,18 +76,18 @@ const Chat = () => {
           ))}
         </div>
 
-        <div className="flex items-center px-[7.23px] gap-[12px] mt-[16px]">
+        <div className="flex flex-col sm:flex-row items-center px-[0px] gap-[12px] mt-[16px]">
           <input
             type="text"
             placeholder="Ask anything you need"
-            className="flex-1 px-[23px] py-[17px] border border-[#E5E7EB] rounded-[4px] text-[14px] text-[#9A9A9A] font-normal leading-[100%] "
+            className="w-full px-[23px] py-[17px] border border-[#E5E7EB] rounded-[4px] text-[14px] text-[#9A9A9A] font-normal leading-[100%] "
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleSend()}
           />
           <button
             onClick={handleSend}
-            className="flex items-center gap-[12px] bg-[#002868] hover:bg-blue-700 text-[#FFF] p-[14px] rounded-[8px] text-[17.092px] font-medium leading-[100%] tracking-[-0.684px]"
+            className="w-full sm:w-auto flex items-center justify-center gap-[12px] bg-[#002868] hover:bg-blue-700 text-[#FFF] p-[14px] rounded-[8px] text-[17.092px] font-medium leading-[100%] tracking-[-0.684px]"
           >
             <span>Send</span>
             <ArrowUp />

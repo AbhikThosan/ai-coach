@@ -1,12 +1,61 @@
-# React + Vite
+# AI Sales Coach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application that provides AI-powered sales coaching and training solutions. Built with React and Tailwind CSS, featuring a responsive design that maintains perfect layout at 1920px while adapting gracefully to smaller screens.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🤖 AI-Powered Sales Coaching
+- 💬 Interactive Chat Interface
+- 📊 Real-time Analysis
+- 🎯 Quick Actions for Common Tasks
+- 📱 Fully Responsive Design
+- 🎨 Modern UI with Tailwind CSS
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- JavaScript
+- HTML5
+
+## Demo
+
+Check out the live demo of the project: [AI Sales Coach Demo](https://ai-sales-coach-demo.netlify.app)
+
+## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/ai-coach.git
+```
+
+2. Install dependencies:
+
+```bash
+cd ai-coach
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+## Design Philosophy
+
+The application is designed with a focus on maintaining perfect layout at 1920px screen size while providing a responsive experience across all devices. Key design principles include:
+
+- Preserved 1920px layout as the reference design
+- Responsive text sizes and spacing
+- Adaptive component layouts for smaller screens
+- Consistent user experience across devices
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

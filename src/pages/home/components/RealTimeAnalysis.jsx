@@ -10,7 +10,7 @@ const RealTimeAnalysis = () => {
         Real-time Analysis
       </h3>
 
-      <div className="w-[460px] flex flex-col gap-[12px] p-[16px] bg-[#FFF] rounded-[12px] border border-[#E7E7E7]">
+      <div className="flex flex-col gap-[12px] p-[16px] bg-[#FFF] rounded-[12px] border border-[#E7E7E7]">
         <div className="flex items-center">
           <Tick />
           <p className="text-[#171D25] text-[18px] font-semibold leading-[132%]">
@@ -30,7 +30,7 @@ const RealTimeAnalysis = () => {
         </div>
       </div>
 
-      <div className="w-[460px] flex flex-col gap-[12px] p-[16px] bg-[#FFF] rounded-[12px] border border-[#E7E7E7]">
+      <div className=" flex flex-col gap-[12px] p-[16px] bg-[#FFF] rounded-[12px] border border-[#E7E7E7]">
         <div className="flex items-center">
           <Graph />
           <p className="text-[#171D25] text-[18px] font-semibold leading-[132%]">
